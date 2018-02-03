@@ -4,7 +4,7 @@ from .models import *
 from .forms import *
 
 class OnibusAdmin(admin.ModelAdmin):
-   # form = OnibusForm
+   # form = OnibusForm eoq
     list_display= ['nome','empresa','trajeto','entrada']
     search_fields = ['nome','empresa','trajeto']
 
