@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'portaria.apps.caminhoes',
     'portaria.apps.notas',
     'portaria.apps.onibus',
+    'portaria.apps.funcionarios',
 ]
 
 MIDDLEWARE = [
